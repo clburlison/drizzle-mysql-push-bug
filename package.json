@@ -1,0 +1,20 @@
+{
+  "name": "drizzle-mysql-push-bug",
+  "module": "index.ts",
+  "scripts": {
+    "db:generate": "drizzle-kit generate:mysql",
+    "db:push": "drizzle-kit push:mysql",
+    "db:studio": "drizzle-kit studio"
+  },
+  "type": "module",
+  "devDependencies": {
+    "bun-types": "latest",
+    "drizzle-kit": "^0.20.7"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "drizzle-orm": "^0.29.1"
+  }
+}
